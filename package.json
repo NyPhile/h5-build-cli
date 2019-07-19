@@ -1,6 +1,6 @@
 {
   "name": "h5-build-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "H5模板构建工具",
   "bin": {
     "build": "./bin/build.js"

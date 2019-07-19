@@ -133,12 +133,12 @@ program
     //   password: null
     // }
     const spinner = ora('正在下载模板').start();
-    download(answers.template, './test', err => {
+    download(answers.template, './', err => {
       if (err) {
         console.log(err)
       } else {
         let packageFile = {}
-        let packagePath = `test/package.json`
+        let packagePath = `./package.json`
         if (fs.existsSync(packagePath)) {
           packageFile = JSON.parse(fs.readFileSync(packagePath, 'utf-8'))
         }
@@ -148,7 +148,7 @@ program
         fs.writeFileSync(packagePath, JSON.stringify(packageFile, null, 2))
 
         let ftppass = {}
-        let ftppassPath = `test/.ftppass`
+        let ftppassPath = `./.ftppass`
         if (fs.existsSync(ftppassPath)) {
           ftppass = JSON.parse(fs.readFileSync(ftppassPath, 'utf-8'))
         }
