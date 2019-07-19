@@ -1,0 +1,20 @@
+{
+  "name": "h5-build-cli",
+  "version": "0.0.2",
+  "description": "H5模板构建工具",
+  "bin": {
+    "build": "./bin/build.js"
+  },
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "NyPhile",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^6.5.0",
+    "ora": "^3.4.0"
+  }
+}
