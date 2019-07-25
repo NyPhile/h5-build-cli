@@ -144,7 +144,7 @@ program
         }
         packageFile.name = answers.name
         packageFile.channel = answers.channel
-        packageFile.description = answers.description || ''
+        packageFile.description = answers.desc || ''
         fs.writeFileSync(packagePath, JSON.stringify(packageFile, null, 2))
 
         let ftppass = {}
@@ -155,6 +155,14 @@ program
         ftppass.username = answers.username
         ftppass.password = answers.password
         fs.writeFileSync(ftppassPath, JSON.stringify(ftppass, null, 2))
+
+        let readme = ''
+        let readmePath = `./README.md`
+        if (fs.existsSync(readmePath)) {
+          readme = fs.readFileSync(readmePath, 'utf-8')
+        }
+        readme = readme.replace('# 项目标题', '# ' + answers.name)
+        fs.writeFileSync(readmePath, readme)
 
         console.log('')
         console.log(chalk.magenta('完成'))
