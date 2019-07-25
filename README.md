@@ -1,5 +1,9 @@
 # H5模板构建工具
 
+![version](https://img.shields.io/github/package-json/v/NyPhile/h5-build-cli.svg)
+![commit](https://img.shields.io/github/last-commit/NyPhile/h5-build-cli.svg)
+![new feature](https://img.shields.io/badge/author-wang__zhen-orange)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/NyPhile/h5-build-cli/master/assets/logo.png">
 </p>
