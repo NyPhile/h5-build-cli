@@ -1,9 +1,7 @@
 # H5模板构建工具
 
 <p align="center">
-
-![version](./assets/logo.png)
-
+  <img src="./assets/logo.png">
 </p>
 
 ### 命令
