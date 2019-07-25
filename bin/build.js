@@ -17,7 +17,7 @@ const path = require('path')
  * - 上传账号
  * - 上传密码
  */
-//
+
 program
 .command('init')
 .alias('i')

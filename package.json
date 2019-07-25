@@ -1,15 +1,23 @@
 {
   "name": "h5-build-cli",
-  "version": "0.0.5",
+  "version": "0.0.7",
+  "author": "NyPhile",
   "description": "H5模板构建工具",
+  "license": "ISC",
   "bin": {
     "build": "./bin/build.js"
   },
   "main": "index.js",
   "scripts": {
   },
-  "author": "NyPhile",
-  "license": "ISC",
+  "engines": {
+    "node": ">=5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NyPhile/h5-build-cli.git"
+  },
+  "homepage": "https://github.com/NyPhile/h5-build-cli",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
