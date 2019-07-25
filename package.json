@@ -1,6 +1,6 @@
 {
   "name": "h5-build-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "NyPhile",
   "description": "H5模板构建工具",
   "license": "ISC",
@@ -15,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NyPhile/h5-build-cli.git"
+    "url": "ssh://git@g.hz.netease.com:22222/f2e/component/h5-build-cli.git"
   },
-  "homepage": "https://github.com/NyPhile/h5-build-cli",
+  "homepage": "https://g.hz.netease.com/f2e/component/h5-build-cli",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
