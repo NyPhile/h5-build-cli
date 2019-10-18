@@ -1,1 +1,1 @@
-require('./bin/build.js')
+require('./bin/ne-build.js')
